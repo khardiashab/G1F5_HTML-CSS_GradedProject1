@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    padding: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center_div {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    overflow-y: scroll;
+    position: relative;
+    margin: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+.form_div {
+    padding: 20px;
+
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 48% 48%;
+
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 5px 10px 7px 10px;
+    border-bottom: 2px solid darkgray;
+    font-size: 15px;
+    margin: 10px 2px;
+
+}
+
+.input:focus {
+    background-color: cornsilk;
+    border-bottom: 2px solid black;
+}
+
+.div {
+    width: 50%;
+}
+
+select {
+    width: 250px;
+    padding: 5px 10px;
+    border: 1px solid rgb(56, 45, 45);
+    border-radius: 0;
+}
+
+
+.btns {
+    width: 100%;
+    text-align: center;
+}
+
+.btns button {
+    padding: 7px 15px;
+    background-color: rgb(98, 18, 159);
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin: 20px 15px;
+    width: 100px;
+}
+
+.img_div {
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    position: sticky;
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+}
+
+.img_div>img {
+    height: 100%;
+    width: 100%;
+}
+
+.date-time {
+    padding-bottom: 50px;
+}

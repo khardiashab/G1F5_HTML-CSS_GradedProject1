@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test Form</title>
+    <link rel="stylesheet" href="../css/lab-test.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="center_div">
+            <div class="div form_div">
+                <form action="">
+                    <h3>1. Your Contact Details</h3>
+                    <div class="wrapper">
+                        <input type="text" class="input" placeholder="Full Name">
+                        <input type="text" class="input" placeholder="Patient Id if exists">
+                        <input type="tel" class="input" placeholder="Contact Number">
+                        <input type="email" class="input" placeholder="Email Id">
+                    </div>
+                    <h3>2. Address</h3>
+                    <div class="wrapper">
+                        <input type="text" class="input" placeholder="H-No">
+                        <input type="text" class="input" placeholder="Street">
+                        <input type="text" class="input" placeholder="Area">
+                        <br>
+                        <h4 class="">District</h4>
+                        <br>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0">Choose</option>
+                                <option value="1">Haryana</option>
+                                <option value="2">Rajasthan</option>
+                                <option value="3">Punjap</option>
+                                <option value="4">Bihar</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <h3>3. Choose the Test Type</h3>
+                    <p>Check at least one box without fail.</p>
+                    <div class="wrapper">
+                        <div>
+                            <input type="checkbox" name="test" id="cbc">
+                            <label for="cbc"> CBC</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="test" id="complete-urine">
+                            <label for="complete-urine"> Complete Urine</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="test" id="lipid-profile">
+                            <label for="lipid-profile"> Lipid Profile</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="test" id="tsh">
+                            <label for="tsh"> Thyroid Stimulating Hormone (TSH)</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="test" id="glucose-test">
+                            <label for="glucose-test"> Glucose Test</label>
+                        </div>
+                    </div>
+                    <h3>4. Do you want a hard copy of the report also?</h3>
+                    <div class="wrapper">
+                        <div>
+                            <input type="radio" name="hard-copy" id="yes">
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="hard-copy" id="no">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+
+                    <h3>5. Select Your Comfortable Date and Time</h3>
+                    <div class="wrapper date-time">
+                        <div>
+                            <label for="date">Date</label>
+                            <input type="date" id="date">
+                        </div>
+                        <div>
+                            <label for="time">Time</label>
+                            <input type="time" id="time">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="div img_div">
+                <img src="../Images/Lab-Test/lab-test.jpg" alt="Lab Test Image">
+            </div>
+        </div>
+        <div class="btns">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
